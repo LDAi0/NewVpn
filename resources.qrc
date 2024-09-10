@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/menu.png</file>
+        <file>resources/mainnew2.png</file>
+        <file>resources/location.png</file>
+        <file>resources/dollar.png</file>
+        <file>resources/graphic.png</file>
+        <file>resources/internet.png</file>
+        <file>resources/profile.png</file>
+        <file>resources/sputnikSidemenu.png</file>
+        <file>resources/info.png</file>
+        <file>resources/language.png</file>
+        <file>resources/prilozheniye.png</file>
+        <file>resources/svyaz.png</file>
+    </qresource>
+</RCC>
