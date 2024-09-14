@@ -11,15 +11,18 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
-    sidemenu.cpp
+    sidemenu.cpp \
+    statisticform.cpp
 
 HEADERS += \
     mainwindow.h \
-    sidemenu.h
+    sidemenu.h \
+    statisticform.h
 
 FORMS += \
     mainwindow.ui \
-    sidemenu.ui
+    sidemenu.ui \
+    statisticform.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

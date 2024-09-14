@@ -12,5 +12,9 @@
         <file>resources/language.png</file>
         <file>resources/prilozheniye.png</file>
         <file>resources/svyaz.png</file>
+        <file>resources/servers.png</file>
+        <file>resources/shield.png</file>
+        <file>resources/clock.png</file>
+        <file>resources/world.png</file>
     </qresource>
 </RCC>
