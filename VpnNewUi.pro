@@ -11,16 +11,19 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
+    profile.cpp \
     sidemenu.cpp \
     statisticform.cpp
 
 HEADERS += \
     mainwindow.h \
+    profile.h \
     sidemenu.h \
     statisticform.h
 
 FORMS += \
     mainwindow.ui \
+    profile.ui \
     sidemenu.ui \
     statisticform.ui
 
