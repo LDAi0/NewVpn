@@ -13,19 +13,22 @@ SOURCES += \
     mainwindow.cpp \
     profile.cpp \
     sidemenu.cpp \
-    statisticform.cpp
+    statisticform.cpp \
+    tarifsform.cpp
 
 HEADERS += \
     mainwindow.h \
     profile.h \
     sidemenu.h \
-    statisticform.h
+    statisticform.h \
+    tarifsform.h
 
 FORMS += \
     mainwindow.ui \
     profile.ui \
     sidemenu.ui \
-    statisticform.ui
+    statisticform.ui \
+    tarifsform.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
