@@ -2,7 +2,6 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-#include "sidemenu.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -20,10 +19,11 @@ public:
 
 public slots:
     void toggleMenu();
+    void StatisticMenu();
+    void TarifsMenu();
+    void ProfileMenu();
 
 private:
     Ui::MainWindow *ui;
-
-    sidemenu *sm;
 };
 #endif // MAINWINDOW_H

@@ -7,13 +7,219 @@
     <x>0</x>
     <y>0</y>
     <width>400</width>
-    <height>300</height>
+    <height>650</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Form</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+	background-color: rgb(0, 0, 0);
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>400</width>
+     <height>650</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <widget class="QPushButton" name="exitBtn_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background-color: rgb(0, 0, 0);
+border: none;
+border-radius: 10px;
+}
+QPushButton::hover{
+	background-color: rgb(85, 85, 85);
+}
+QPushButton::pressed{
+	background-color: rgb(29, 29, 29)
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resources.qrc">
+      <normaloff>:/resources/exit.png</normaloff>:/resources/exit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>48</width>
+      <height>48</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>171</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Titillium Web</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+</string>
+    </property>
+    <property name="text">
+     <string>Тарифы:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>410</y>
+      <width>361</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-style: solid;
+border-width: 2px;
+border-color:rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+
+}
+QPushButton::hover{
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+QPushButton::pressed{
+	
+	border-color: rgb(112, 112, 112);
+	background-color: rgb(112, 112, 112);
+}</string>
+    </property>
+    <property name="text">
+     <string>1 месяц                                                           399р</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>500</y>
+      <width>361</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-style: solid;
+border-width: 2px;
+border-color:rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+
+}
+QPushButton::hover{
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+QPushButton::pressed{
+	
+	border-color: rgb(112, 112, 112);
+	background-color: rgb(112, 112, 112);
+}</string>
+    </property>
+    <property name="text">
+     <string>1 неделя                                                                 150р</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>230</y>
+      <width>361</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-style: solid;
+border-width: 2px;
+border-color:rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+}
+QPushButton::hover{
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+QPushButton::pressed{
+	
+	border-color: rgb(112, 112, 112);
+	background-color: rgb(112, 112, 112);
+}</string>
+    </property>
+    <property name="text">
+     <string>1 год                                                              2499р</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>320</y>
+      <width>361</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border-style: solid;
+border-width: 2px;
+border-color:rgb(255, 255, 255);
+border-radius: 10px;
+color: rgb(255, 255, 255);
+
+}
+QPushButton::hover{
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+}
+QPushButton::pressed{
+	
+	border-color: rgb(112, 112, 112);
+	background-color: rgb(112, 112, 112);
+}</string>
+    </property>
+    <property name="text">
+     <string>6 месяцев                                                           1799р</string>
+    </property>
+   </widget>
+  </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
  <connections/>
 </ui>

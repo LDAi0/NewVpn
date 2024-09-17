@@ -6,6 +6,8 @@ statisticForm::statisticForm(QWidget *parent)
     , ui(new Ui::statisticForm)
 {
     ui->setupUi(this);
+    connect(ui->exitBtn_2, &QPushButton::clicked, this, &statisticForm::hide);
+
 }
 
 statisticForm::~statisticForm()

@@ -16,5 +16,6 @@
         <file>resources/shield.png</file>
         <file>resources/clock.png</file>
         <file>resources/world.png</file>
+        <file>resources/exit.png</file>
     </qresource>
 </RCC>

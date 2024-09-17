@@ -20,7 +20,9 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QWidget{background-color: rgb(0, 0, 0);}</string>
+   <string notr="true">QWidget{
+background-color: rgb(0, 0, 0)  ; 
+}</string>
   </property>
   <property name="tabShape">
    <enum>QTabWidget::TabShape::Rounded</enum>
@@ -139,7 +141,7 @@ QPushButton:pressed {
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_3">
+    <widget class="QPushButton" name="tarifsBtn">
      <property name="geometry">
       <rect>
        <x>230</x>
@@ -176,7 +178,7 @@ QPushButton:pressed {
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_4">
+    <widget class="QPushButton" name="statisticBtn">
      <property name="geometry">
       <rect>
        <x>130</x>
@@ -213,7 +215,7 @@ QPushButton:pressed {
       </size>
      </property>
     </widget>
-    <widget class="QPushButton" name="pushButton_5">
+    <widget class="QPushButton" name="profileBtn">
      <property name="geometry">
       <rect>
        <x>330</x>

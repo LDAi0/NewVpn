@@ -7,8 +7,8 @@ sidemenu::sidemenu(QWidget *parent)
 {
     ui->setupUi(this);
     this->setGeometry(0,0,300,650);
-
-    animation->setDuration(300);
+    qDebug() << "Secondary window created";  // Лог для отладки
+    connect(ui->exitBtn, &QPushButton::clicked, this, &sidemenu::hide);
 }
 
 sidemenu::~sidemenu()
